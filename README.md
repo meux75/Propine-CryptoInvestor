@@ -1,3 +1,18 @@
+## Answer
+Dependencies:
+ - axios : to make HTTTP requests to the CryptoCompare API
+ - csv-parser : to parse the CSV file
+
+ Interface:
+  - Transaction : to map the columns of transactions in the CSV file
+
+Functions: 
+ - getExchangeRate : Fetches the latest USD exchange rates for tokens in CryptoCompare API
+
+The program reads the transactions from the CSV file, group the transactions by token and then calculates the token balance, fetches the latest USD exchange rates for the tokens from the CryptoCompare API, and calculates the portfolio value per token in USD. The portfolio is logged in the console.
+
+
+
 ## Question 1 - Programming
 _We're looking at your programming ability. It must not only work, it should be maintainable._
 
